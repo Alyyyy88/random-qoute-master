@@ -60,7 +60,7 @@ body{
   border-radius: 12px;
   font-size: 14px;
   text-align: center;
-  
+  text-transform: capitalize;
 }
 
 
@@ -72,6 +72,7 @@ body{
   border-radius: 12px;
   font-size: 14px;
   text-align: center;
+  text-transform: capitalize;
   
 }
 
@@ -108,4 +109,6 @@ body{
 .quote{
   margin-top: 12px;
   margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 800;
 }

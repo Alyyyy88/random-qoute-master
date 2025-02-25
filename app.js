@@ -24,7 +24,7 @@ async function getQuote() {
 
     author.textContent = quoteAuthor;
 
-    q.textContent = `"${quote}"`;
+    q.textContent = `" ${quote} "`;
 
     category.textContent = tags[0];
 
