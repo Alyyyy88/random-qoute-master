@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Outfit", serif;
+  height: 100vh;
+  background-color: #111629;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  max-width: 600px;
+  height: min-content;
+  width: 100%;
+  padding: 2.5rem 2rem; 
+  background-color: #20293A;
+  background-image: url(./resources/bg-image-random-quote.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  line-height: 1.4;
+  box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0), 286px 195px 138px 0px rgba(0, 0, 0, 0.01),
+  161px 110px 117px 0px rgba(0, 0, 0, 0.05), 72px 49px 87px 0px rgba(0, 0, 0, 0.09),
+  18px 12px 48px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.title-desc{
+  display: flex;
+  gap: 12px;
+  width: 60%;
+  justify-content: center;
+  padding: 4px;
+}
+
+
+.qoute-cat{
+  width: 50%;
+  color: #AEB0FF;
+  border: 1px solid #AEB0FF;
+  padding: 4px;
+  border-radius: 12px;
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+
+.qoute-title{
+  width: 50%;
+  color: #AEB0FF;
+  border: 1px solid #AEB0FF;
+  padding: 4px;
+  border-radius: 12px;
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+.buttons{
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20293A;
+  padding: 12px;
+  outline: none;
+  gap: 12px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: backgroundcolor ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+}
+
+
+.card:hover{
+  border: 1px solid #AEB0FF;
+  background-color: white;
+  color: #AEB0FF;
+}
+
+.quote{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
